@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Ci</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>half-adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="340" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>half-adder.dig</elementName>
+      <elementAttributes/>
+      <pos x="500" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>A_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>B_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Ci_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>A_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>B_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Ci_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>S_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>CoA_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>CoA_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>CoB_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>CoB_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Co_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Co_Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="220"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="240" y="160"/>
+      <p2 x="260" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="320"/>
+      <p2 x="260" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="240"/>
+      <p2 x="260" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="400"/>
+      <p2 x="340" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="400"/>
+      <p2 x="500" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="400"/>
+      <p2 x="420" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="400"/>
+      <p2 x="580" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="480"/>
+      <p2 x="340" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="500"/>
+      <p2 x="440" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="520"/>
+      <p2 x="340" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="380"/>
+      <p2 x="340" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="380"/>
+      <p2 x="500" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="380"/>
+      <p2 x="580" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="140"/>
+      <p2 x="700" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="220"/>
+      <p2 x="700" y="220"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
